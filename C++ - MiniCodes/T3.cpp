@@ -8,11 +8,11 @@ int main()
     cin >> K>>A>>N;
 
     if (K<A&&K<N)
-        cout<< "Kashif is Youngest amoung three of them."<<endl;
+        cout<< "K is Youngest amoung three of them."<<endl;
     else if (A<K&&A<N)
-        cout<< "Asim is Youngest amoung three of them."<<endl;
+        cout<< "A is Youngest amoung three of them."<<endl;
 	else
-        cout<< "Nasir is Youngest amoung three of them.";
+        cout<< "N is Youngest amoung three of them.";
 
     return 0;
 }
