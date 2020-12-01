@@ -2,14 +2,14 @@
 using namespace std;
 int main()
 {
-	int Kashif,Asim,Nasir;
+	int K,A,N;
 
     cout << "Input Ages of 3 Person: "<<endl;
-    cin >> Kashif>>Asim>>Nasir;
+    cin >> K>>A>>N;
 
-    if (Kashif<Asim&&Kashif<Nasir)
+    if (K<A&&K<N)
         cout<< "Kashif is Youngest amoung three of them."<<endl;
-    else if (Asim<Kashif&&Asim<Nasir)
+    else if (A<K&&A<N)
         cout<< "Asim is Youngest amoung three of them."<<endl;
 	else
         cout<< "Nasir is Youngest amoung three of them.";
